@@ -1,5 +1,5 @@
 FROM ubuntu
 
-COPY hi.sh /hi.sh
+COPY hi.sh ~/hi.sh
 
-CMD ["/hi.sh"]
+CMD ["~/hi.sh"]
